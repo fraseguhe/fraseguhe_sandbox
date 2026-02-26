@@ -22,7 +22,7 @@ public class EjerciciosPractica1 {
         System.out.println("[" + array3[i] + "]");
     }
         // Se crea una variable double del array3 para mostar el promedio de este arreglo
-    double promedioarray3 = java.util.Arrays.stream(array3).average().orElse();
+    double promedioarray3 = java.util.Arrays.stream(array3).average().orElse(0.0);
         System.out.println("El promedio del array3 es:" + promedioarray3);
     leer.close();
     }
